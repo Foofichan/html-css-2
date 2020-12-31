@@ -62,3 +62,24 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     margin: 1%;
 }
+
+.main-body {
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+}
+
+.banner {
+    flex: 1;
+    background-color: yellow;
+}
+
+.center {
+    flex: 1;
+}
+
+.table {
+    flex: 2;
+}

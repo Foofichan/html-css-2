@@ -34,6 +34,7 @@
     border-radius: 7%;
     border: 2px solid rgb(225,228,231);
     background-color: white;
+    cursor: pointer;
 
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
@@ -48,6 +49,7 @@
     border-radius: 7%;
     border: 1px solid  rgba(255, 255, 255, 0.3);    
     background-color: rgb(125,42,232);
+    cursor: pointer;
     
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
@@ -159,6 +161,7 @@
     font-weight: 700;
     color: rgb(14, 19, 24);
     height: 60px;
+    margin: 0;
 }
 
 .row-format-2 {
@@ -167,7 +170,7 @@
     font-weight: 400;
     color: rgba(17, 23, 29, 0.6);
     vertical-align: text-top;
-    height: 50px;
+    height: 45px;
 }
 
 .row-format-3 {
@@ -191,13 +194,39 @@
     font-size: 32px;
     font-weight: 700;
     color: rgb(14, 19, 24);
-    height: 50px;
+    vertical-align: text-top;
+    height: 45px;
 }
 
 .row-format-5 {
     font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 500;
     color: rgba(14, 19, 24, 0.7);
     height: 20px;
+}
+
+.row-format-6 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(14, 19, 24);
+    height: 40px;
+}
+
+.row-format-7 {
+    height: 50px;
+}
+
+.button-format-1 {
+    height: 35px;
+    width: 320px;
+    font-family: helvetica;
+    font-size: 13px;
+    font-weight: 550;
+    color: rgb(255, 255, 255);
+    background-color: rgb(125,42,232);
+    border: 1px solid rgb(125,42,232);
+    border-radius: 3px;
+    cursor: pointer;
 }

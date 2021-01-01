@@ -134,4 +134,70 @@
 
 .main-body-table {
     flex: 5;
+    display: flex;
+    justify-content: center;    
+}
+
+.main-body-table-format {
+    border: 1px solid black;
+    height: 700px;
+    width: 1250px;
+    border-spacing: px;
+    text-align: center;
+}
+
+.cell-format {
+    border: 1px solid black;
+    width: 30%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.row-format-1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(14, 19, 24);
+    height: 60px;
+}
+
+.row-format-2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(17, 23, 29, 0.6);
+    vertical-align: text-top;
+    height: 50px;
+}
+
+.row-format-3 {
+    height: 20px;
+}
+
+.button-format {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    color: #181818;
+    height: 20px;
+    pointer-events: none;
+    background-color: rgb(255,237,189);
+    border: rgb(255,237,189);
+    border-radius: 8%;
+}
+
+.row-format-4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(14, 19, 24);
+    height: 50px;
+}
+
+.row-format-5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(14, 19, 24, 0.7);
+    height: 20px;
 }

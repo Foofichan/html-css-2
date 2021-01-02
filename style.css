@@ -141,7 +141,7 @@
 }
 
 .main-body-table-format {
-    border: 1px solid black;
+  /*  border: 1px solid black; */
     height: 700px;
     width: 1250px;
     border-spacing: px;
@@ -149,7 +149,7 @@
 }
 
 .cell-format {
-    border: 1px solid black;
+  /*  border: 1px solid black; */
     width: 30%;
     padding-left: 1%;
     padding-right: 1%;
@@ -215,7 +215,7 @@
 }
 
 .row-format-7 {
-    height: 50px;
+    height: 70px;
 }
 
 .button-format-1 {
@@ -229,4 +229,21 @@
     border: 1px solid rgb(125,42,232);
     border-radius: 3px;
     cursor: pointer;
+}
+.row-format-8to12 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(14, 19, 24);
+    height: 45px;
+    vertical-align: text-top;
+}
+
+.row-format-13to16 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(14, 19, 24);
+    height: 30px;
+    vertical-align: text-top;
 }
